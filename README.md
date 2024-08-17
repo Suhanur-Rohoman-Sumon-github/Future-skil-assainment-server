@@ -44,11 +44,19 @@ Ensure you have the following installed on your machine:
    npm run dev
    or
    yarn dev
-#start the project :
+   ```
+4. start the project:
  ```bash
   npm run start
-
-
+```
+5. formatting code:
+ ```bash
+  npm run prettier:fixed
+```
+6. show runtime error in the code:
+ ```bash
+  npm run lint:fix
+```
 
 
 
