@@ -15,8 +15,8 @@ const createCards = catchAsync(async (req, res) => {
   });
 
   const getAllCartsFromDb = catchAsync(async (req, res) => {
-    const result = await cardServices.getCardsFromDb();
-  console.log(result);
+    
+    const result = await cardServices.getCardsFromDb(req.query);
     sendResponse(res, {
       statusCode: httpStatus.OK,
       success: true,
