@@ -45,19 +45,14 @@ Ensure you have the following installed on your machine:
    or
    yarn dev
    ```
-4. start the project:
-    ```bash
-      npm run start
+## Features
 
-6. formatting code:
-   ```bash
-      npm run prettier:fixed
-
-
-6. show runtime error in the code:
-     ```bash
-      npm run lint:fix
-
+- **build**: Compiles TypeScript into JavaScript.
+- **start:**:Runs the compiled code in production.
+- **lint**: Linter is used to identify and fix potential issues in the code.
+- **lint:fix**: solved the identifier error.
+- **Prettier**: find the code which not formating yet.
+- prettier:fixed:  Code formatter to maintain code style consistency 
 
 
    
