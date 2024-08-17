@@ -45,7 +45,7 @@ Ensure you have the following installed on your machine:
    or
    yarn dev
    ```
-## Features
+## Scripts
 
 - **build**: Compiles TypeScript into JavaScript.
 - **start:**:Runs the compiled code in production.
