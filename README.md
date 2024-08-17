@@ -8,7 +8,7 @@ This project is an Express server written in TypeScript. It provides a robust fo
 
 - **TypeScript**: Enhances code quality and developer experience with strong typing.
 - **Express**: Fast, unopinionated, minimalist web framework for Node.js.
-- **ESLint**: Linter for identifying and fixing potential issues in the code.
+- **ESLint**: Linter is used to identify and fix potential issues in the code.
 - **Prettier**: Code formatter to maintain code style consistency.
 - **Nodemon**: Utility that monitors for any changes in your source and automatically restarts the server.
 
@@ -16,8 +16,8 @@ This project is an Express server written in TypeScript. It provides a robust fo
 
 Ensure you have the following installed on your machine:
 
-- Node.js (>=14.x)
-- npm (>=6.x) or yarn (>=1.x)
+- Node.js (v20.16.01)
+- npm (9.6.6) or yarn (4.0.0..x)
 
 ## Getting Started
 
@@ -46,17 +46,17 @@ Ensure you have the following installed on your machine:
    yarn dev
    ```
 4. start the project:
- ```bash
-  npm run start
-```
-5. formatting code:
- ```bash
-  npm run prettier:fixed
-```
+    ```bash
+      npm run start
+
+6. formatting code:
+   ```bash
+      npm run prettier:fixed
+
+
 6. show runtime error in the code:
- ```bash
-  npm run lint:fix
-```
+     ```bash
+      npm run lint:fix
 
 
 
