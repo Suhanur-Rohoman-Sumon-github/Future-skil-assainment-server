@@ -29,6 +29,27 @@ Ensure you have the following installed on your machine:
    git clone https://github.com/Suhanur-Rohoman-Sumon-github/Future-skil-assainment-server
    cd Future-skil-assainment-server
    npm install
-# or
-```bash
+   or
    yarn install
+
+   
+2. Install dependencies:
+    ```bash
+   npm install
+   or
+   yarn install
+
+3. Development:
+     ```bash
+   npm run dev
+   or
+   yarn dev
+#start the project :
+ ```bash
+  npm run start
+
+
+
+
+
+   
